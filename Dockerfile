@@ -5,6 +5,6 @@ COPY nginx.conf /etc/nginx/conf.d/nginx.conf
 
 COPY . /var/www/html/
 
-EXPOSE 8000
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
